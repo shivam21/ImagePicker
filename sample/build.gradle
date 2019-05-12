@@ -40,8 +40,8 @@ android {
     buildTypes {
         debug {
             applicationVariants.all { variant ->
-                if (variant.buildType.name == 'debug') {
-                    variant.mergedFlavor.versionName = gitVersionNameFull;
+                variant.outputs.each { output ->
+                    output.versionNameOverride = "1.2.2-63c8e2c9b8e6cab09e1a72f0df9419ba3533eaff"
                 }
             }
         }
