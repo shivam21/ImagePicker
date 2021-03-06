@@ -6,7 +6,7 @@ ImagePicker
 </a>
 
 ImagePicker is an Android library to easily pick an image from gallery or camera app. The users can select their prefered gallery/camera app on a unique Intent. 
-Download the APK sample on Google Play:
+Download the APK sample on Google Play
 
 <a href="https://play.google.com/store/apps/details?id=com.mvc.imagepicker">
   <img alt="Add me to Linkedin" src="./art/GooglePlay.png" />
@@ -45,14 +45,7 @@ Add the following code to your *Activity*:
 ```
 
 
-Add it to your project
 ----------------------
-
-Add this permission to your ``AndroidManifest``:
-
-```xml
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-```
 
 Add it in your *root* ``build.gradle`` at the end of repositories:
 
